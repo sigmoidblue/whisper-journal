@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Karla:ital,wght@0,200..800;1,200..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Cardo:ital,wght@0,400;0,700;1,400&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Karla:ital,wght@0,200..800;1,200..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* Custom styles for react-h5-audio-player */
+/* Audio player container */
+.rhap_container {
+  border-radius: 12px !important;
+  background: #E8F3FC !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Progress bar background */
+.rhap_progress-bar {
+  background-color: #CDE3F8 !important;
+}
+
+/* Filled progress color */
+.rhap_progress-filled {
+  background-color: #448AC2 !important;
+}
+
+/* Timestamp (current time & duration) */
+.rhap_time {
+  color: #1E3D5F !important;
+  font-weight: 500;
+}
+
+/* Main play/pause control */
+.rhap_main-controls button {
+  color: #306A9C !important;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Add subtle scale on hover */
+.rhap_main-controls button:hover {
+  transform: scale(1.1);
+  color: #20547D !important;
+}
