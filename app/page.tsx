@@ -1,11 +1,15 @@
 'use client'
 
-import VoiceRecorder from '../components/VoiceRecorder'
+import dynamic from 'next/dynamic'
 import About from '../components/About'
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { useSession, signIn } from 'next-auth/react'
 import { motion } from 'framer-motion'
+
+const VoiceRecorder = dynamic(() => import('../components/VoiceRecorder'), {
+  ssr: false,
+})
 
 type Entry = {
   text: string
