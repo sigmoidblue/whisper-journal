@@ -1,5 +1,9 @@
 # Whisper Journal
 
+
+https://github.com/user-attachments/assets/0f7b3b75-f127-452e-8807-ad8ff2f5d838
+
+
 Whisper Journal is a voice-based journaling web app that transcribes spoken entries and categorizes them using NLP. It uses OpenAI’s Whisper for transcription and HuggingFace models for emotion and topic detection.
 
 
